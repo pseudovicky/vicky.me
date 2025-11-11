@@ -1,0 +1,17 @@
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+
+Languages & \normalsize{Python, C/C++, Java, HTML, CSS, JavaScript, MySQL} \\
+
+Frameworks & \normalsize{React.js, Tailwind CSS, Bootstrap, Node.js, Express.js} \\
+
+Libraries & \normalsize{NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Folium, Keras, TensorFlow } \\
+
+Tools / Platforms & \normalsize{MongoDB, MS SQL Server, IBM Cognos, Selenium, Excel, Figma, Power BI} \\
+
+Soft Skills & \normalsize{Problem-Solving, Teamwork \& Collaboration, Strategic Planning, Flexibility} \\
+
+\end{tabularx}

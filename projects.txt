@@ -1,0 +1,37 @@
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+% Project 1
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Old Car Price Prediction} & \hfill \href{https://github.com/pseudovicky}{GitHub Repo} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Python, Machine Learning, MERN, Web Scraping \\
+Built a used-car price prediction model using Linear Regression (R\textsuperscript{2} ≈ 0.85) with anomaly handling, feature engineering,  
+and deployed inside a MERN web app with interactive price analysis.
+}
+\end{tabularx}
+\vspace{7pt}
+
+% Project 2
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Excelify} & \hfill \href{https://github.com/pseudovicky}{GitHub Repo} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Full Stack (MERN), REST API, Data Processing \\
+Developed an Excel-automation platform with secure file upload, JWT auth, and Excel parsing to MongoDB using SheetJS.  
+Provided intelligent insights using server-side processing and React + Tailwind dashboard UI.
+}
+\end{tabularx}
+\vspace{7pt}
+
+% Project 3
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{House Price Prediction} & \hfill \href{https://github.com/pseudovicky}{GitHub Repo} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Django, Python, Pandas, Scikit-learn, MongoDB \\
+Trained a Linear Regression + AdaBoost ML model (R\textsuperscript{2} ≈ 0.89) with EDA, data cleaning, duplicate removal, feature engineering,  
+visual analytics, and deployed using Django with user inputs and dashboard insights.
+}
+\end{tabularx}
+

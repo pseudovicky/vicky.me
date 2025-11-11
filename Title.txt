@@ -1,0 +1,18 @@
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Vicky Kumar} \\[7.5pt]
+\href{https://github.com/pseudovicky}{\raisebox{-0.05\height}\faGithub\ pseudovicky} \ $|$ \ 
+\href{https://linkedin.com/in/pseudovicky}{\raisebox{-0.05\height}\faLinkedin\ pseudovicky} \ $|$ \ 
+\href{https://vickykumar.me}{\raisebox{-0.05\height}\faGlobe \ vickykumar.me} \ $|$ \ 
+\href{mailto:sudovicky@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ sudovicky@gmail.com} \ $|$ \ 
+\href{tel:+917295818429}{\raisebox{-0.05\height}\faMobile \ +91 7295818429} \\
+\end{tabularx}
