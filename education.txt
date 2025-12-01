@@ -1,0 +1,16 @@
+\section{Education}
+\begin{tabularx}{\linewidth}{@{} X r @{}}
+
+    \textbf{Lovely Professional University} & Phagwara, Punjab \\
+    Master of Computer Application (Hons. in AI/ML); CGPA: 8.0 & Aug 2024 – Present \\[1.5pt]
+
+    \textbf{Indira Gandhi National Open University} & Patna, Bihar \\
+    Bachelor of Computer Application; Percentage: 62\% & Jan 2020 – Dec 2023 \\[1.5pt]
+
+    \textbf{BSEB Board} & Patna, Bihar \\
+    Intermediate (PCM); Percentage: 70\% & Mar 2016 – Mar 2017 \\[1.5pt]
+
+    \textbf{BSEB Board} & Patna, Bihar \\
+    Matriculation; Percentage: 75\% & 2016 – 2017 \\
+
+\end{tabularx}

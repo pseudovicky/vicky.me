@@ -1,0 +1,15 @@
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Certificates}
+\begin{jobshort}{\textbf{VLSI Design – Professional Training} (\href{https://inleski.com/certificate.php?certificate=20250619IB7304617369}{INLESKI})}{Jun 2025 -- Jul 2025}
+\end{jobshort}
+\begin{jobshort}{\textbf{Responsive Web Design} (\href{https://www.freecodecamp.org/certification/fcc47b3390d-0c34-4d57-8948-2eac1209f8ea/responsive-web-design}{freeCodeCamp})}{Jul 2025 -- Sep 2025}
+\end{jobshort}
+\begin{jobshort}{\textbf{Machine Learning \& Data Visualization} (IBM)}{Oct 2024 -- Jan 2025}
+\end{jobshort}
+\begin{jobshort}{\textbf{Data Science Masters} (\href{https://pwskills.com/learn/certificate/7cb6d99b-da82-45dd-9784-06513263a44c/}{PW Skills})}{Jan 2024 -- Dec 2024}
+\end{jobshort}
+\begin{jobshort}{\textbf{MERN Stack Development} (\href{https://mycourse.app/qWomCXFiY9wBahWJA}{Apna College})}{Dec 2022 -- Oct 2023}
+\end{jobshort}

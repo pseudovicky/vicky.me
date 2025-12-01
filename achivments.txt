@@ -1,0 +1,14 @@
+
+\section{Activities \& Achievements}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+
+    \item \textbf{Code-A-Haunt Hackathon (Coding Blocks, LPU):} 
+    Participated in a high-intensity coding and development sprint focused on rapid problem-solving and teamwork. Built an AI Therapist Application using Python, Django, and Google AI Studio, integrating the trained model into the backend through API-based communication.
+
+    \item \textbf{Responsive CSS Challenge — 21 Days Bootcamp:} 
+    Completed 21 mini-projects in 21 days, strengthening expertise in responsive design, media queries, accessibility, and SEO-friendly UI development. Created modern, scalable, and production-ready CSS layouts.
+
+    \item \textbf{AlumniConnect Application (MERN, Socket.io, APIs):} 
+    Developed during the Code Strome 36-Hour Hackathon organized by Microsoft Learn Student Ambassadors, where our team was awarded Runner-Up. Designed a real-time mentorship platform enabling students and alumni to connect through live chat, appointment scheduling, and role-based dashboards.
+
+\end{itemize}

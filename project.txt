@@ -1,0 +1,5 @@
+\begin{joblong}{CloudDeck}{Oct 2025}
+\item Developed \textbf{CloudDeck}, a serverless AWS S3 file management application using React 19, adopted internally to streamline cloud storage workflows.
+\item Eliminated backend server costs and complexity by architecting a highly responsive Single Page Application (SPA) that communicates directly with the AWS S3 API.
+\item Delivered a seamless user experience with an intuitive UI built using Tailwind CSS and Framer Motion, significantly improving team efficiency in file management.
+\end{joblong}

@@ -1,0 +1,19 @@
+%----------------------------------------------------------------------------------------
+%	Activities \& Achievements
+%----------------------------------------------------------------------------------------
+
+
+\section{Activities \& Achievements}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+
+    \item \textbf{Hackathon Participation:} Code Strome 36-Hour Hackathon, MLSA Hackathon
+
+    \item \textbf{Code-A-Haunt Hackathon (Coding Blocks LPU):} Participated in a competitive coding and development sprint focused on rapid problem-solving and teamwork.
+
+    \item \textbf{Responsive CSS Challenge — 21 Days Bootcamp:} 
+    Completed 21 mini-projects in 21 days, gaining strong skills in responsive design, media queries, and SEO-friendly CSS practices. Built modern, accessible, and scalable layouts suitable for production-level applications.
+
+    \item \textbf{AlumniConnect Application (MERN, socket.io, APIs):}
+    Developed during a 36-hour hackathon as a group project. Built a real-time platform enabling students to connect with alumni for mentorship through chat, appointments, and role-based dashboards.
+
+\end{itemize}

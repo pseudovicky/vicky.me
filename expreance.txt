@@ -1,0 +1,6 @@
+\begin{joblong}{\textbf{Hariyalikart (Startup)} – Web Developer}{Jan 2024 – Jul 2024}
+    \item Built and launched the company’s primary website \href{https://hariyalikart.com/}{hariyalikart.com}, supporting their mission of delivering smart-agriculture IoT and AI solutions to improve water usage and crop health.
+    \item Developed full-stack features using the \textbf{MERN stack (MongoDB, Express.js, React.js, Node.js)}, integrating REST APIs and creating a fully responsive, mobile-first user experience.
+    \item Collaborated with the tech team to implement feature enhancements, including real-time IoT sensor dashboards and dynamic content modules, improving farmer engagement and platform scalability.
+    \item Optimized website performance—reducing load time, improving SEO, and enhancing mobile responsiveness—while ensuring maintainable code structure and effective version control practices.
+\end{joblong}

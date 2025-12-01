@@ -1,0 +1,11 @@
+
+\section*{Association Rule Mining for Supermarket Sales Optimization (Apriori Algorithm)}
+\textbf{Tech Stack:} Python, Pandas, MLxtend, IBM Watson Studio, IBM Cloud \\
+\textbf{Description:}
+Built an Apriori-based association rule mining system using Kaggle supermarket transaction data to uncover high-value product co-occurrence patterns. Automated rule generation using support, confidence, and lift metrics and deployed the full pipeline on IBM Cloud using Watson Studio. Delivered actionable cross-sell recommendations that optimized shelf placement, improved customer experience, and enhanced supermarket sales strategy.
+
+
+\section*{High-Performance Market Basket Analysis using FP-Growth}
+\textbf{Tech Stack:} Python, Pandas, MLxtend, IBM Watson Studio, IBM Cloud \\
+\textbf{Description:}
+Developed a high-speed market basket analysis system using the FP-Growth algorithm on Kaggle supermarket transaction data. Utilized FP-Tree compression to extract frequent itemsets efficiently and evaluated association rules through support, confidence, and lift metrics. Deployed the solution on IBM Cloud to enable real-time cross-sell recommendations, improving product adjacency strategies and supporting data-driven retail decision-making.

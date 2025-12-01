@@ -1,0 +1,223 @@
+\documentclass[a4paper,11pt]{article}
+
+%----------------------------------------------------------------------------------------
+% PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip}
+\setlength{\parskip}{0pt}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.95, top=1.25cm, bottom=1.25cm]{geometry}
+\usepackage{fontspec} % Use fontspec to load system fonts
+\setmainfont{EB Garamond} % Set the document font to Garamond
+\usepackage{setspace} % Package for line spacing
+\setstretch{1.05} % Increase line spacing by 10%
+\usepackage{tabularx}
+\usepackage{enumitem}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\usepackage{supertabular}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\setlength\bibitemsep{1em}
+\usepackage{fontawesome5}
+
+%----------------------------------------------------------------------------------------
+% CV LAYOUT
+%----------------------------------------------------------------------------------------
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\newenvironment{jobshort}[2]
+  {
+  \begin{tabularx}{\linewidth}{@{}l X r@{}}
+  #1 & \hfill & #2 \\[1.5pt]
+  \end{tabularx}
+  }
+  {
+  }
+
+\newenvironment{joblong}[2]
+  {
+  \begin{tabularx}{\linewidth}{@{}l X r@{}}
+  #1 & \hfill & #2 \\[1.5pt]
+  \end{tabularx}
+  \begin{minipage}[t]{\linewidth}
+  \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=0.5pt,label=\textbullet]
+  }
+  {
+  \end{itemize}
+  \end{minipage}
+  }
+
+%----------------------------------------------------------------------------------------
+% BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Vicky Kumar} \\[7.5pt]
+\href{https://github.com/pseudovicky}{\raisebox{-0.05\height}\faGithub\ pseudovicky} \ $|$ \ 
+\href{https://linkedin.com/in/pseudovicky}{\raisebox{-0.05\height}\faLinkedin\ pseudovicky} \ $|$ \ 
+\href{https://vickykumar.me}{\raisebox{-0.05\height}\faGlobe \ vickykumar.me} \ $|$ \ 
+\href{mailto:sudovicky@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ sudovicky@gmail.com} \ $|$ \ 
+\href{tel:+917295818429}{\raisebox{-0.05\height}\faMobile \ +91 7295818429} \\
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+
+Languages & \normalsize{Python, C/C++, Java, HTML, CSS, JavaScript, MySQL} \\
+
+Frameworks & \normalsize{React.js, Tailwind CSS, Bootstrap, Node.js, Express.js} \\
+
+Libraries & \normalsize{NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Folium, Keras, TensorFlow } \\
+
+Tools / Platforms & \normalsize{MongoDB, MS SQL Server, IBM Cognos, Excel, Selenium, Canva, Figma, Power BI, Cisco Packet Tracer} \\
+
+Soft Skills & \normalsize{Problem-Solving, Teamwork \& Collaboration, Strategic Planning, Flexibility} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	Experience
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\begin{joblong}{\textbf{Hariyalikart (Startup)} – Web Developer}{Jan 2024 – Jul 2024}
+    \item Built and launched the company’s primary website \href{https://hariyalikart.com/}{hariyalikart.com}, supporting their mission of delivering smart-agriculture IoT and AI solutions to improve water usage and crop health.
+    \item Developed full-stack features using the \textbf{MERN stack (MongoDB, Express.js, React.js, Node.js)}, integrating REST APIs and creating a fully responsive, mobile-first user experience.
+    \item Collaborated with the tech team to implement feature enhancements, including real-time IoT sensor dashboards and dynamic content modules, improving farmer engagement and platform scalability.
+    \item Optimized website performance—reducing load time, improving SEO, and enhancing mobile responsiveness—while ensuring maintainable code structure and effective version control practices.
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+%	Internship
+%----------------------------------------------------------------------------------------
+
+\section{Internship \& Training}
+
+\begin{joblong}{\textbf{VLSI Industrial Training \& Internship Program}}{Jun 2025 -- Jul 2025}
+    \item Completed a comprehensive 7–8 week online industry-oriented training focused on digital logic design, CMOS fundamentals, Verilog/VHDL coding, RTL design, simulation, synthesis, and FPGA/ASIC workflows.
+    \item Gained hands-on experience with real semiconductor design toolchains, worked on industry-aligned mini-projects, and achieved an \textbf{85\%} score, earning recognition as a top performer in the program.
+\end{joblong}
+
+
+%----------------------------------------------------------------------------------------
+%	Project
+%----------------------------------------------------------------------------------------
+
+
+\section{Projects}
+
+\begin{joblong}{\textbf{CloudDeck} — React, AWS S3, Tailwind CSS, Framer Motion}{Oct 2025}
+\item Built \textbf{CloudDeck}, a serverless AWS S3 file management application to streamline internal cloud storage workflows.
+\item Eliminated backend server costs by designing a fully client-side SPA that communicates directly with AWS S3 APIs.
+\item Delivered a responsive and smooth UI using Tailwind CSS and Framer Motion, improving team efficiency in file management.
+\end{joblong}
+
+
+\begin{joblong}{\textbf{Old Car Price Prediction} — Python, Pandas, NumPy, Scikit-learn, AdaBoost, MERN Stack, Web Scraping, Vercel}{Aug 2025}
+
+\item Scraped real-world used car data from Quikr.com and merged it with Kaggle datasets, followed by rigorous cleaning, anomaly detection, and preprocessing to create a high-quality training dataset.
+\item Performed feature engineering and removed unnecessary or low-impact columns using \textbf{Adjusted R\textsuperscript{2}} to ensure only meaningful variables contributed to the model’s performance.
+\item Built a baseline Linear Regression model, then boosted it with \textbf{AdaBoost}, improving prediction accuracy by nearly \textbf{20\%} and achieving an overall \textbf{R\textsuperscript{2} ≈ 0.92}.
+\item Implemented the entire pipeline using Python, Pandas, NumPy, and scikit-learn, including dimensionality reduction, error analysis, and evaluation metrics such as R\textsuperscript{2}, MAE, and RMSE. Deployed the final system through a MERN-based web application hosted on \textbf{Vercel}, enabling users to interactively explore visual analytics (year, mileage, fuel type) and obtain accurate resale price predictions.
+\end{joblong}
+
+
+\begin{joblong}{\textbf{Sorting Algorithm Visualizer} (\href{https://sort-visualiser-chi.vercel.app/}{ Deployed on Vercel })}{May 2025}
+\item Developed an interactive web application to visualize multiple sorting algorithms in real time, improving conceptual understanding of algorithmic behavior.
+\item Implemented nine sorting algorithms—including Bubble Sort, Quick Sort, Merge Sort, Heap Sort, and Radix Sort—with step-by-step visualization of comparisons, swaps, and intermediate states.
+\item Added customizable controls for array size, randomization, and sorting speed (Slow, Medium, Fast), enabling an adaptive and engaging learning experience.
+\item Built a client–server architecture using \textbf{Node.js, Express.js, and Socket.IO} to stream algorithm execution steps and rendered progress through an intuitive bar-graph-based UI.
+\end{joblong}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Certificates}
+\begin{jobshort}{\textbf{VLSI Design – MSME Professional Training} (\href{https://inleski.com/certificate.php?certificate=20250619IB7304617369}{INLESKI})}{Jun 2025 -- Jul 2025}
+\end{jobshort}
+\begin{jobshort}{\textbf{Responsive Web Design} (\href{https://www.freecodecamp.org/certification/fcc47b3390d-0c34-4d57-8948-2eac1209f8ea/responsive-web-design}{freeCodeCamp})}{Jul 2025 -- Sep 2025}
+\end{jobshort}
+\begin{jobshort}{\textbf{Machine Learning \& Data Visualization} (IBM)}{Oct 2024 -- Jan 2025}
+\end{jobshort}
+\begin{jobshort}{\textbf{Data Science Masters} (\href{https://pwskills.com/learn/certificate/7cb6d99b-da82-45dd-9784-06513263a44c/}{PW Skills})}{Jan 2024 -- Dec 2024}
+\end{jobshort}
+\begin{jobshort}{\textbf{MERN Stack Development} (\href{https://mycourse.app/qWomCXFiY9wBahWJA}{Apna College})}{Dec 2022 -- Oct 2023}
+\end{jobshort}
+
+
+%----------------------------------------------------------------------------------------
+%	Activities \& Achievements
+%----------------------------------------------------------------------------------------
+
+
+\section{Activities \& Achievements}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+
+    \item \textbf{Code-A-Haunt Hackathon (Coding Blocks, LPU):} 
+    Participated in a high-intensity coding and development sprint focused on rapid problem-solving and teamwork. Built an \textbf{AI Therapist} Application using Python, Django, and Google AI Studio, integrating the trained model into the backend through API-based communication.
+
+    \item \textbf{Responsive CSS Challenge — 21 Days Bootcamp:} 
+    Completed 21 mini-projects in 21 days, strengthening expertise in responsive design, media queries, accessibility, and SEO-friendly UI development. Created modern, scalable, and production-ready CSS layouts.
+
+    \item \textbf{AlumniConnect Application (MERN, Socket.io, APIs):} 
+    Developed during the Code Strome 36-Hour Hackathon organized by \textbf{Microsoft Learn Student Ambassadors}, where our team was awarded \textbf{Runner-Up}. Designed a real-time mentorship platform enabling students and alumni to connect through live chat, appointment scheduling, and role-based dashboards.
+
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+
+\section{Education}
+\begin{tabularx}{\linewidth}{@{} X r @{}}
+
+    \textbf{Lovely Professional University} & Phagwara, Punjab \\
+    Master of Computer Application (Hons. in AI/ML), in collaboration with \textbf{IBM}; CGPA: 8.0 & Aug 2024 – Present \\[1.5pt]
+
+    \textbf{Indira Gandhi National Open University} & Patna, Bihar \\
+    Bachelor of Computer Application; Percentage: 62\% & Jul 2019 – Dec 2023 \\[1.5pt]
+
+    \textbf{BSEB Board} & Patna, Bihar \\
+    Intermediate (PCM); Percentage: 70\% & Mar 2017 – Mar 2019 \\[1.5pt]
+
+    \textbf{BSEB Board} & Patna, Bihar \\
+    Matriculation; Percentage: 75\% & 2016 – 2017 \\
+
+\end{tabularx}
+
+
+\end{document}
